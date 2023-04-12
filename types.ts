@@ -1,7 +1,7 @@
 // Copyright 2023-latest the httpland authors. All rights reserved. MIT license.
 // This module is browser compatible.
 
-/** JSON value API. */
+/** Parsed JSON value */
 export type JsonValue =
   | { [key: string]: JsonValue }
   | JsonValue[]
