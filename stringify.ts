@@ -9,7 +9,7 @@ import type { JsonValue } from "./types.ts";
  *
  * @throws {TypeError} If input contains a circular reference.
  */
-export function stringifyJfv(input: readonly JsonValue[]): string {
+export function stringifyJfv(input: readonly Readonly<JsonValue>[]): string {
   /** Specification:
    * 1. generating the JSON representation,
    * 2. stripping all JSON control characters (CR, HTAB, LF), or replacing them by space ("SP") characters,
