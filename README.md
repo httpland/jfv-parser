@@ -9,7 +9,7 @@
 [![test](https://github.com/httpland/jfv-parser/actions/workflows/test.yaml/badge.svg)](https://github.com/httpland/jfv-parser/actions/workflows/test.yaml)
 [![NPM](https://nodei.co/npm/@httpland/jfv-parser.png?mini=true)](https://nodei.co/npm/@httpland/jfv-parser/)
 
-**J**SON **F**ield **V**alues for HTTP parser and serializer.
+**J**SON **f**ield **v**alues for HTTP parser and serializer.
 
 Compliant with
 [A JSON Encoding for HTTP Field Values](https://datatracker.ietf.org/doc/html/draft-reschke-http-jfv).
@@ -42,7 +42,7 @@ assertThrows(() => parseJfv("<invalid:JSON>"));
 
 ## Serialization
 
-Serialize [JSON field value](#json-field-value) into string.
+Serialize any array into string.
 
 ```ts
 import { stringifyJfv } from "https://deno.land/x/jfv_parser@$VERSION/stringify.ts";
