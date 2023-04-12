@@ -42,7 +42,7 @@ assertThrows(() => parseJfv("<invalid:JSON>"));
 
 ## Serialization
 
-Serialize [JSON field value](#json-field-value) into string.
+Serialize any array into string.
 
 ```ts
 import { stringifyJfv } from "https://deno.land/x/jfv_parser@$VERSION/stringify.ts";

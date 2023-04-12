@@ -3,13 +3,12 @@
 
 import { ascii } from "./deps.ts";
 import { Char } from "./constants.ts";
-import type { JsonValue } from "./types.ts";
 
-/** Serializer array of {@link JsonValue} into string.
+/** Serialize any array into string.
  *
  * @throws {TypeError} If input contains a circular reference.
  */
-export function stringifyJfv(input: readonly Readonly<JsonValue>[]): string {
+export function stringifyJfv(input: readonly unknown[]): string {
   /** Specification:
    * 1. generating the JSON representation,
    * 2. stripping all JSON control characters (CR, HTAB, LF), or replacing them by space ("SP") characters,
