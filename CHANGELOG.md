@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/httpland/jfv-parser/compare/1.0.0-beta.1...1.0.0-beta.2) (2023-04-12)
+
+
+### Features
+
+* **stringify:** extend acceptable data types ([6f901f2](https://github.com/httpland/jfv-parser/commit/6f901f293f1be8e4f65e51e4f1bfb97aead4347f))
+
 # 1.0.0-beta.1 (2023-04-12)
 
 
